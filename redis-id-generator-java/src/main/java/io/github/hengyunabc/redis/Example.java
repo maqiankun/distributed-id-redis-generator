@@ -7,11 +7,11 @@ import java.util.List;
 public class Example {
 
 	public static void main(String[] args) {
-		String tab = "order";
+		String tab = "这个就是evalsha命令里面的参数，随便定义";
 
 		IdGenerator idGenerator = IdGenerator.builder()
-				.addHost("47.91.248.236", 6380, "be6d4e21e9113bf8af47ce72f3da18e00580d402")
-				.addHost("47.91.248.236", 6381, "97f65601d0aaf1a0574da69b1ff3092969c4310e")
+				.addHost("127.0.0.1", 6380, "be6d4e21e9113bf8af47ce72f3da18e00580d402")
+				.addHost("127.0.0.1", 6381, "97f65601d0aaf1a0574da69b1ff3092969c4310e")
 				.build();
 		int hello = 0;
         while (hello<3){
